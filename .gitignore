@@ -1,0 +1,9 @@
+*.o
+*.out
+*.exe
+*.dSYM/
+flight-simulator
+flight-simulator-asan
+flight-simulator-tsan
+test-alert-buffer
+.DS_Store
