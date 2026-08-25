@@ -15,7 +15,7 @@ A multithreaded C simulation of interacting flight systems that consume and prod
 
 `src/simulation.c` owns the manager/worker lifecycle and synchronized resource operations. `src/alert_buffer.c` implements the priority heap. `src/sync_lock.c` provides the platform synchronization abstraction. Public structures and interfaces are declared in `include/flight_sim.h`, while `src/main.c` provides the executable entry point.
 
-This publication-focused implementation is independently structured and does not include external scaffolding from the original development environment.
+The codebase is organized as a standalone simulation with a compact public interface and local test targets.
 
 ## Building
 
